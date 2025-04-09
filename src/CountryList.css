@@ -1,0 +1,45 @@
+.container {
+  max-width: 250px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 128, 0, 0.3);
+}
+
+.container h2 {
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.loading {
+  text-align: center;
+  color: #555;
+  font-size: 1rem;
+}
+
+.country-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.country-item {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+  transition: background-color 0.3s, font-weight 0.3s;
+}
+
+.country-item:hover {
+  background-color: #e0e0e0;
+}
+
+.country-item.selected {
+  background-color: #d1e7dd;
+  font-weight: bold;
+}
